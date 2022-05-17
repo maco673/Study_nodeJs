@@ -16,7 +16,7 @@ $ git remote -v : 저장된 원격저장소 확인
 $ git push origin master : 원격저장소 origin에 수정된 데이터 반영
 
 3. Git Repository Data bring
-$ git pull : 원격저장소에 있는 파일을 그대로 옮겨오고 자동 병합
+$ git pull [원격저장소명] [브랜치명] : 원격저장소에 있는 파일을 그대로 옮겨오고 자동 병합
 $ git fetch : 원격저장소에서 프로젝트의 변경사항만을 가져오기만 하고 병합 (수정부분 확인 후 병합 가능)
 
 4. Git Repository Data Copy
