@@ -8,22 +8,25 @@
  4. commit 준비 완료
 
 ## VScode git 명령어 모음(Teminal Commend)
-1. Git Repository Designate
-$ git remote origin add [repository_address] : 원격저장소를 origin이라는 이름으로 생성
+1. Git Repository Connect
+$ git remote [Repository Name] add [repository_address] : 원격저장소명을 [Repository Name]으로 생성
 $ git remote -v : 저장된 원격저장소 확인
 
-2. Git Repository Data insert
-$ git push origin master : 원격저장소 origin에 수정된 데이터 반영
+2. Git Repository Remote
+$ git remote remove [Repository Name]
 
-3. Git Repository Data bring
-$ git pull [원격저장소명] [브랜치명] : 원격저장소에 있는 파일을 그대로 옮겨오고 자동 병합
+3. Git Repository Data insert
+$ git push [Repository Name] master : 원격저장소에 수정된 데이터 반영
+
+4. Git Repository Data bring
+$ git pull [Repository Name] [Branch Name] : 원격저장소에 있는 파일을 그대로 옮겨오고 자동 병합
 $ git fetch : 원격저장소에서 프로젝트의 변경사항만을 가져오기만 하고 병합 (수정부분 확인 후 병합 가능)
 
-4. Git Repository Data Copy
+5. Git Repository Data Copy
 $ git clone : 원격저장소에 저장된 내용을 가져옴
 
-5. Branch name Change
-$ git branch -m master maco : master라는 branch명을 maco으로 변경
+6. Branch name Change
+$ git branch -m [Before Branch Name] [After Branch Name] : master라는 branch명을 maco으로 변경
 
 
 
