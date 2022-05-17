@@ -22,5 +22,8 @@ $ git fetch : 원격저장소에서 프로젝트의 변경사항만을 가져오
 4. Git Repository Data Copy
 $ git clone : 원격저장소에 저장된 내용을 가져옴
 
+5. Branch name Change
+$ git branch -m master maco : master라는 branch명을 maco으로 변경
+
 
 
