@@ -1,0 +1,26 @@
+## my_repository_address
+ - https://github.com/maco673/Study_nodeJs.git
+
+## VScode git commit
+ 1. VScode 왼쪽에 위치한 Branch 아이콘 클릭
+ 2. 우상단 + 버튼 클릭 (update source chk)
+ 3. 우상단 V표 클릭 (commit)
+ 4. commit 준비 완료
+
+## VScode git 명령어 모음(Teminal Commend)
+1. Git Repository Designate
+$ git remote origin add [repository_address] : 원격저장소를 origin이라는 이름으로 생성
+$ git remote -v : 저장된 원격저장소 확인
+
+2. Git Repository Data insert
+$ git push origin master : 원격저장소 origin에 수정된 데이터 반영
+
+3. Git Repository Data bring
+$ git pull : 원격저장소에 있는 파일을 그대로 옮겨오고 자동 병합
+$ git fetch : 원격저장소에서 프로젝트의 변경사항만을 가져오기만 하고 병합 (수정부분 확인 후 병합 가능)
+
+4. Git Repository Data Copy
+$ git clone : 원격저장소에 저장된 내용을 가져옴
+
+
+
